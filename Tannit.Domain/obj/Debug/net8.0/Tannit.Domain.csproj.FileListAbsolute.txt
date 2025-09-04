@@ -1,0 +1,12 @@
+C:\Users\Mariem\Desktop\TannitApp\tannit-backend\Tannit.Domain\bin\Debug\net8.0\Tannit.Domain.deps.json
+C:\Users\Mariem\Desktop\TannitApp\tannit-backend\Tannit.Domain\bin\Debug\net8.0\Tannit.Domain.dll
+C:\Users\Mariem\Desktop\TannitApp\tannit-backend\Tannit.Domain\bin\Debug\net8.0\Tannit.Domain.pdb
+C:\Users\Mariem\Desktop\TannitApp\tannit-backend\Tannit.Domain\obj\Debug\net8.0\Tannit.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mariem\Desktop\TannitApp\tannit-backend\Tannit.Domain\obj\Debug\net8.0\Tannit.Domain.AssemblyInfoInputs.cache
+C:\Users\Mariem\Desktop\TannitApp\tannit-backend\Tannit.Domain\obj\Debug\net8.0\Tannit.Domain.AssemblyInfo.cs
+C:\Users\Mariem\Desktop\TannitApp\tannit-backend\Tannit.Domain\obj\Debug\net8.0\Tannit.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mariem\Desktop\TannitApp\tannit-backend\Tannit.Domain\obj\Debug\net8.0\Tannit.Domain.sourcelink.json
+C:\Users\Mariem\Desktop\TannitApp\tannit-backend\Tannit.Domain\obj\Debug\net8.0\Tannit.Domain.dll
+C:\Users\Mariem\Desktop\TannitApp\tannit-backend\Tannit.Domain\obj\Debug\net8.0\refint\Tannit.Domain.dll
+C:\Users\Mariem\Desktop\TannitApp\tannit-backend\Tannit.Domain\obj\Debug\net8.0\Tannit.Domain.pdb
+C:\Users\Mariem\Desktop\TannitApp\tannit-backend\Tannit.Domain\obj\Debug\net8.0\ref\Tannit.Domain.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Tannit.Api.props" />
+</Project>
