@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\",
+  "WorkspaceRootPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|c:\\users\\mariem\\desktop\\tannitapp\\tannit-backend\\tannit.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|solutionrelative:tannit.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4866C046-4BAA-44FD-A926-0DF13EAF31B4}|Tannit.Infrastructure\\Tannit.Infrastructure.csproj|c:\\users\\mariem\\desktop\\tannitapp\\tannit.uk\\tannit-backend\\tannit.infrastructure\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4866C046-4BAA-44FD-A926-0DF13EAF31B4}|Tannit.Infrastructure\\Tannit.Infrastructure.csproj|solutionrelative:tannit.infrastructure\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|c:\\users\\mariem\\desktop\\tannitapp\\tannit.uk\\tannit-backend\\tannit.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|solutionrelative:tannit.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|c:\\users\\mariem\\desktop\\tannitapp\\tannit.uk\\tannit-backend\\tannit.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|solutionrelative:tannit.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +34,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "Tannit.Api\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "Tannit.Api\\Controllers\\AccountsController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwDIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T22:36:53.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "Tannit.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Api\\appsettings.json",
-              "RelativeToolTip": "Tannit.Api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-04T13:50:11.728Z",
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Infrastructure\\Repositories\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "Tannit.Infrastructure\\Repositories\\TransactionRepository.cs",
+              "ToolTip": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Infrastructure\\Repositories\\TransactionRepository.cs",
+              "RelativeToolTip": "Tannit.Infrastructure\\Repositories\\TransactionRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowBkAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T22:37:54.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "Tannit.Api\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "Tannit.Api\\Controllers\\PaymentsController.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAwwDgBAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T22:03:07.484Z",
               "EditorCaption": ""
             }
           ]

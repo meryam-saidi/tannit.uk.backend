@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tannit.Infrastructure
-build_property.ProjectDir = C:\Users\Mariem\Desktop\TannitApp\tannit-backend\Tannit.Infrastructure\
+build_property.ProjectDir = C:\Users\Mariem\Desktop\TannitApp\tannit.uk\tannit-backend\Tannit.Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj",
       "projectName": "Tannit.Domain",
-      "projectPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj",
+      "projectPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj",
       "packagesPath": "C:\\Users\\Mariem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mariem\\AppData\\Roaming\\NuGet\\NuGet.Config",

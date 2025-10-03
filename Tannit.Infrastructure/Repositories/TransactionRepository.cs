@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using System.Data;
+using System.Data.Common;
 using Tannit.Application.Transactions;
 using Tannit.Domain.Entities;
 using Tannit.Infrastructure.Persistence;
@@ -15,8 +16,8 @@ namespace Tannit.Infrastructure.Repositories
         {
             using var cn = _factory.Create();
             const string sql = @"
-            INSERT INTO Transactions (Id, UserId, Amount, Type, Currency, Status, CreatedAtUtc, SettledAtUtc)
-            VALUES (@Id, @UserId, @Amount, @Type, @Currency, @Status, @CreatedAtUtc, @SettledAtUtc);";
+                INSERT INTO Transactions (Id, UserId, Amount, Type, Currency, Status, CreatedAtUtc, SettledAtUtc)
+                VALUES (@Id, @UserId, @Amount, @Type, @Currency, @Status, @CreatedAtUtc, @SettledAtUtc);";
             await cn.ExecuteAsync(sql, tx);
         }
 
@@ -39,5 +40,34 @@ namespace Tannit.Infrastructure.Repositories
             // Dapper retourne IEnumerable; si vous préférez matérialiser :
             return rows; // ou rows.ToList();
         }
+
+        public async Task UpdateAsync(Transaction tx, CancellationToken ct = default)
+        {
+            using var cn = _factory.Create();
+            const string sql = @"
+                UPDATE Transactions
+                SET 
+                    Amount = @Amount,
+                    Currency = @Currency,
+                    Type = @Type,
+                    Status = @Status,
+                    SettledAtUtc = @SettledAtUtc,
+                    VestsAtUtc = @VestsAtUtc
+                WHERE Id = @Id"
+            ;
+            await cn.ExecuteAsync(sql, tx);
+        }
+
+        public async Task<IEnumerable<Transaction>> GetSettledReadyToVestAsync(CancellationToken ct)
+        {
+            const string sql = @"
+                SELECT * FROM Transactions
+                WHERE Status = 'Settled'
+                  AND VestsAtUtc <= @now";
+
+            using var cn = _factory.Create();
+            return await cn.QueryAsync<Transaction>(sql, new { status = "Settled", now = DateTime.UtcNow });
+        }
+
     }
 }

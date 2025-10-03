@@ -12,5 +12,8 @@ namespace Tannit.Application.Transactions
         Task CreateAsync(Transaction tx, CancellationToken ct = default);
         Task<Transaction?> GetByIdAsync(Guid id, CancellationToken ct = default);
         Task<IEnumerable<Transaction>> GetByUserIdAsync(Guid userId, CancellationToken ct = default);
+        Task UpdateAsync(Transaction tx, CancellationToken ct = default);
+        Task<IEnumerable<Transaction>> GetSettledReadyToVestAsync(CancellationToken ct);
+
     }
 }

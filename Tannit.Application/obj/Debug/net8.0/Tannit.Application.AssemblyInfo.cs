@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tannit.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+093dcdd94b0ba952a8fcd9aa54c0dff0a4287cc6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a045cff96df923a0dbbdd6dc63a635524e14319")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tannit.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tannit.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

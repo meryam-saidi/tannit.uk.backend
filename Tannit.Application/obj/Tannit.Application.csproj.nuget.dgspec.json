@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Application\\Tannit.Application.csproj": {}
+    "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Application\\Tannit.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Application\\Tannit.Application.csproj": {
+    "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Application\\Tannit.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Application\\Tannit.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Application\\Tannit.Application.csproj",
         "projectName": "Tannit.Application",
-        "projectPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Application\\Tannit.Application.csproj",
+        "projectPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Application\\Tannit.Application.csproj",
         "packagesPath": "C:\\Users\\Mariem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Application\\obj\\",
+        "outputPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mariem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj"
+              "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj": {
+    "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj",
         "projectName": "Tannit.Domain",
-        "projectPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj",
+        "projectPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj",
         "packagesPath": "C:\\Users\\Mariem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mariem\\AppData\\Roaming\\NuGet\\NuGet.Config",

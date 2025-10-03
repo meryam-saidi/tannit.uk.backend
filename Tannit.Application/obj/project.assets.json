@@ -710,11 +710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Application\\Tannit.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Application\\Tannit.Application.csproj",
       "projectName": "Tannit.Application",
-      "projectPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Application\\Tannit.Application.csproj",
+      "projectPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Application\\Tannit.Application.csproj",
       "packagesPath": "C:\\Users\\Mariem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Application\\obj\\",
+      "outputPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mariem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -731,8 +731,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj": {
-              "projectPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj"
+            "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj": {
+              "projectPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Domain\\Tannit.Domain.csproj"
             }
           }
         }

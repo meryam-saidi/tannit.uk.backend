@@ -9,6 +9,7 @@ using Tannit.Application.Accounts;
 using Tannit.Application.Transactions;
 using Tannit.Infrastructure.Repositories;
 using Tannit.Infrastructure.Persistence;
+using Tannit.Api.Services;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +23,8 @@ builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddHostedService<TransactionVestingService>();
 
 builder.Services.AddSwaggerGen(c =>
 {

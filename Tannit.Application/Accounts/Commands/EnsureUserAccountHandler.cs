@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Tannit.Application.Accounts;
 using Tannit.Application.Transactions;
+using Tannit.Application.Transactions.Commands.ConfirmTransaction;
 using Tannit.Domain.Entities;
 
 namespace Tannit.Application.Accounts.Commands;
@@ -9,10 +10,13 @@ public sealed class EnsureUserAccountHandler : IRequestHandler<EnsureUserAccount
 {
     private readonly IUserAccountRepository _repo;
     private readonly ITransactionRepository _txRepo; // pour journaliser
+    private readonly IMediator _mediator;
 
-    public EnsureUserAccountHandler(IUserAccountRepository repo)
+    public EnsureUserAccountHandler(IUserAccountRepository repo, ITransactionRepository txRepo, IMediator mediator)
     {
         _repo = repo ?? throw new ArgumentNullException(nameof(repo)); // garde-fou
+        _txRepo = txRepo;
+        _mediator = mediator;
     }
 
     public async Task Handle(EnsureUserAccountCommand request, CancellationToken ct)
@@ -34,26 +38,30 @@ public sealed class EnsureUserAccountHandler : IRequestHandler<EnsureUserAccount
             await _repo.CreateIfNotExistsAsync(acct, ct);
         }
 
-        // 2) Bonus d’inscription idempotent
+        // Bonus d’inscription idempotent
         // Bonus atomique (40 Tannit)
         var granted = await _repo.GrantSignupBonusAsync(request.AuthUserId, 40m, ct);
-        /*
+        
         if (granted)
         {
-            //journaliser la transaction
+            // 2) journaliser la transaction
+            var transactionId = Guid.NewGuid();
             await _txRepo.CreateAsync(new Transaction
             {
-                Id = Guid.NewGuid(),
+                Id = transactionId,
                 UserId = request.AuthUserId,
                 Amount = 40m,
                 Type = "SignupBonus",
                 Currency = "Tannit",
                 Status = "Settled",
                 CreatedAtUtc = DateTime.UtcNow,
-                SettledAtUtc = DateTime.UtcNow
             }, ct);
+
+            // 3) Settle la transaction
+            await _mediator.Send(new ConfirmTransactionCommand(transactionId));
         }
-        */
+
+
     }
 }
 
