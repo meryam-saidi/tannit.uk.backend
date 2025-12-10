@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "1rhWGDa6IOOTa/b/MrhymLDgAAa30Oqt5rgq1F0VEio=",
+  "Hash": "bNohuNfkf/NXP1XiZEMqElEikTeYp1Bax+SHscjiCzo=",
   "Source": "Tannit.Api",
   "BasePath": "_content/Tannit.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Tannit.Api\\wwwroot",
+      "Source": "Tannit.Api",
+      "ContentRoot": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\wwwroot\\",
+      "BasePath": "_content/Tannit.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\wwwroot\\images\\villa-front.jpg",
+      "SourceId": "Tannit.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\wwwroot\\",
+      "BasePath": "_content/Tannit.Api",
+      "RelativePath": "images/villa-front.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\villa-front.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\wwwroot\\images\\villa-interior.jpg",
+      "SourceId": "Tannit.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\wwwroot\\",
+      "BasePath": "_content/Tannit.Api",
+      "RelativePath": "images/villa-interior.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\villa-interior.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\wwwroot\\images\\villa-pool.jpg",
+      "SourceId": "Tannit.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\wwwroot\\",
+      "BasePath": "_content/Tannit.Api",
+      "RelativePath": "images/villa-pool.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\villa-pool.jpg"
+    }
+  ]
 }

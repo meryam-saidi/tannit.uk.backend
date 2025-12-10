@@ -10,6 +10,7 @@ using Tannit.Application.Transactions;
 using Tannit.Infrastructure.Repositories;
 using Tannit.Infrastructure.Persistence;
 using Tannit.Api.Services;
+using Tannit.Application.Properties;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +21,7 @@ builder.Services.AddSingleton<IDbConnectionFactory, SqlConnectionFactory>();
 // === Repositories __ Enregistrement DI
 builder.Services.AddScoped<IUserAccountRepository, UserAccountRepository>();
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
+builder.Services.AddScoped<IPropertyRepository, PropertyRepository>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -93,6 +95,7 @@ if (app.Environment.IsDevelopment())
 }
 app.UseHttpsRedirection();
 app.UseCors();
+app.UseStaticFiles(); // Active wwwroot
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

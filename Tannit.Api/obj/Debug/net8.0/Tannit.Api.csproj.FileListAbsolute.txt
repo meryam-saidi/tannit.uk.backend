@@ -187,3 +187,4 @@ C:\Users\Mariem\Desktop\TannitApp\tannit.uk\tannit-backend\Tannit.Api\obj\Debug\
 C:\Users\Mariem\Desktop\TannitApp\tannit.uk\tannit-backend\Tannit.Api\obj\Debug\net8.0\ref\Tannit.Api.dll
 C:\Users\Mariem\Desktop\TannitApp\tannit.uk\tannit-backend\Tannit.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Mariem\Desktop\TannitApp\tannit.uk\tannit-backend\Tannit.Api\bin\Debug\net8.0\Stripe.net.dll
+C:\Users\Mariem\Desktop\TannitApp\tannit.uk\tannit-backend\Tannit.Api\bin\Debug\net8.0\Tannit.Api.staticwebassets.runtime.json

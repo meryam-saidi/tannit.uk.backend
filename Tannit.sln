@@ -3,21 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tannit.Api", "Tannit.Api\Tannit.Api.csproj", "{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tannit.Api", "Tannit.Api\Tannit.Api.csproj", "{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tannit.Application", "Tannit.Application\Tannit.Application.csproj", "{E952E9F8-28D0-4355-BD8F-8C282AA77E42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tannit.Application", "Tannit.Application\Tannit.Application.csproj", "{E952E9F8-28D0-4355-BD8F-8C282AA77E42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tannit.Domain", "Tannit.Domain\Tannit.Domain.csproj", "{0A5DB08A-7155-4F77-B530-071452E60D31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tannit.Domain", "Tannit.Domain\Tannit.Domain.csproj", "{0A5DB08A-7155-4F77-B530-071452E60D31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tannit.Infrastructure", "Tannit.Infrastructure\Tannit.Infrastructure.csproj", "{4866C046-4BAA-44FD-A926-0DF13EAF31B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tannit.Infrastructure", "Tannit.Infrastructure\Tannit.Infrastructure.csproj", "{4866C046-4BAA-44FD-A926-0DF13EAF31B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +33,11 @@ Global
 		{4866C046-4BAA-44FD-A926-0DF13EAF31B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4866C046-4BAA-44FD-A926-0DF13EAF31B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4866C046-4BAA-44FD-A926-0DF13EAF31B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75D83B1E-9ED4-4063-B170-784D41A7E39E}
 	EndGlobalSection
 EndGlobal
