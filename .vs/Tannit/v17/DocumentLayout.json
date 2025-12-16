@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A5DB08A-7155-4F77-B530-071452E60D31}|Tannit.Domain\\Tannit.Domain.csproj|c:\\users\\mariem\\desktop\\tannitapp\\tannit.uk\\tannit-backend\\tannit.domain\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A5DB08A-7155-4F77-B530-071452E60D31}|Tannit.Domain\\Tannit.Domain.csproj|solutionrelative:tannit.domain\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4866C046-4BAA-44FD-A926-0DF13EAF31B4}|Tannit.Infrastructure\\Tannit.Infrastructure.csproj|c:\\users\\mariem\\desktop\\tannitapp\\tannit.uk\\tannit-backend\\tannit.infrastructure\\repositories\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4866C046-4BAA-44FD-A926-0DF13EAF31B4}|Tannit.Infrastructure\\Tannit.Infrastructure.csproj|solutionrelative:tannit.infrastructure\\repositories\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|c:\\users\\mariem\\desktop\\tannitapp\\tannit.uk\\tannit-backend\\tannit.api\\services\\investmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|solutionrelative:tannit.api\\services\\investmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|c:\\users\\mariem\\desktop\\tannitapp\\tannit.uk\\tannit-backend\\tannit.api\\controllers\\investmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|solutionrelative:tannit.api\\controllers\\investmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|c:\\users\\mariem\\desktop\\tannitapp\\tannit.uk\\tannit-backend\\tannit.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|solutionrelative:tannit.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|c:\\users\\mariem\\desktop\\tannitapp\\tannit.uk\\tannit-backend\\tannit.api\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|solutionrelative:tannit.api\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|c:\\users\\mariem\\desktop\\tannitapp\\tannit.uk\\tannit-backend\\tannit.api\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|solutionrelative:tannit.api\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|c:\\users\\mariem\\desktop\\tannitapp\\tannit.uk\\tannit-backend\\tannit.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FEE91F-EEEA-439B-B494-C569F9BC83DE}|Tannit.Api\\Tannit.Api.csproj|solutionrelative:tannit.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +42,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Property.cs",
-              "DocumentMoniker": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Domain\\Entities\\Property.cs",
-              "RelativeDocumentMoniker": "Tannit.Domain\\Entities\\Property.cs",
-              "ToolTip": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Domain\\Entities\\Property.cs",
-              "RelativeToolTip": "Tannit.Domain\\Entities\\Property.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "InvestmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Controllers\\InvestmentController.cs",
+              "RelativeDocumentMoniker": "Tannit.Api\\Controllers\\InvestmentController.cs",
+              "ToolTip": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Controllers\\InvestmentController.cs",
+              "RelativeToolTip": "Tannit.Api\\Controllers\\InvestmentController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAEwBoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T18:12:59.355Z",
+              "WhenOpened": "2025-12-15T17:34:36.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Program.cs",
               "RelativeDocumentMoniker": "Tannit.Api\\Program.cs",
               "ToolTip": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Program.cs",
               "RelativeToolTip": "Tannit.Api\\Program.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGEAAAAnAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T15:22:46.404Z"
+              "WhenOpened": "2025-12-15T17:29:48.529Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PropertiesController.cs",
-              "DocumentMoniker": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Controllers\\PropertiesController.cs",
-              "RelativeDocumentMoniker": "Tannit.Api\\Controllers\\PropertiesController.cs",
-              "ToolTip": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Controllers\\PropertiesController.cs",
-              "RelativeToolTip": "Tannit.Api\\Controllers\\PropertiesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
+              "DocumentIndex": 0,
+              "Title": "UserAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Infrastructure\\Repositories\\UserAccountRepository.cs",
+              "RelativeDocumentMoniker": "Tannit.Infrastructure\\Repositories\\UserAccountRepository.cs",
+              "ToolTip": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Infrastructure\\Repositories\\UserAccountRepository.cs*",
+              "RelativeToolTip": "Tannit.Infrastructure\\Repositories\\UserAccountRepository.cs*",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAuwFQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T14:37:58.757Z"
+              "WhenOpened": "2025-12-15T17:23:05.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TransactionsController.cs",
-              "DocumentMoniker": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Controllers\\TransactionsController.cs",
-              "RelativeDocumentMoniker": "Tannit.Api\\Controllers\\TransactionsController.cs",
-              "ToolTip": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Controllers\\TransactionsController.cs",
-              "RelativeToolTip": "Tannit.Api\\Controllers\\TransactionsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABGAAAA",
+              "DocumentIndex": 4,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "Tannit.Api\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "Tannit.Api\\Controllers\\AccountsController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwCUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T15:25:33.194Z"
+              "WhenOpened": "2025-12-15T17:09:03.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvestmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Services\\InvestmentService.cs",
+              "RelativeDocumentMoniker": "Tannit.Api\\Services\\InvestmentService.cs",
+              "ToolTip": "C:\\Users\\Mariem\\Desktop\\TannitApp\\tannit.uk\\tannit-backend\\Tannit.Api\\Services\\InvestmentService.cs",
+              "RelativeToolTip": "Tannit.Api\\Services\\InvestmentService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowDoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T12:41:52.394Z",
+              "EditorCaption": ""
             }
           ]
         },

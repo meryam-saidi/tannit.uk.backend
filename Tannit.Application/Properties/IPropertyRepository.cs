@@ -10,9 +10,9 @@ namespace Tannit.Application.Properties
     public interface IPropertyRepository
     {
         Task<IEnumerable<Property>> GetAllAsync(CancellationToken ct);
-        Task<Property?> GetByIdAsync(Guid id, CancellationToken ct);
-        Task AddAsync(Property property, CancellationToken ct);
-        Task UpdateAsync(Property property, CancellationToken ct);
-        Task DeleteAsync(Guid id, CancellationToken ct);
+        Task<Property?> GetByIdAsync(Guid id, CancellationToken ct = default);
+        Task AddAsync(Property property, CancellationToken ct = default);
+        Task UpdateAsync(Property property, CancellationToken ct = default);
+        Task DeleteAsync(Guid id, CancellationToken ct = default);
     }
 }

@@ -11,5 +11,17 @@ namespace Tannit.Application.Accounts
         //Task MarkSignupBonusGrantedAsync(Guid authUserId, CancellationToken ct);
         Task<bool> GrantSignupBonusAsync(Guid userId, decimal amount, CancellationToken ct = default);
 
+        // Méthodes métier
+        Task DecreaseBalanceAsync(Guid userId, int amount);
+        //Task IncreaseBalanceAsync(Guid userId, int amount);
+
+        // Méthode générique (ADMIN / PROFIL)
+        //Task UpdateAsync(User user);
+
+        /*
+         Règle d’or (à retenir pour le PFE)
+         Les opérations qui ont une signification métier (DecreaseBalanceAsync&IncreaseBalanceAsync) doivent être explicites.
+         Les opérations génériques (UpdateAsync) sont réservées aux cas non critiques.
+        */
     }
 }

@@ -11,6 +11,7 @@ using Tannit.Infrastructure.Repositories;
 using Tannit.Infrastructure.Persistence;
 using Tannit.Api.Services;
 using Tannit.Application.Properties;
+using Tannit.Application.Investments;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +23,8 @@ builder.Services.AddSingleton<IDbConnectionFactory, SqlConnectionFactory>();
 builder.Services.AddScoped<IUserAccountRepository, UserAccountRepository>();
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 builder.Services.AddScoped<IPropertyRepository, PropertyRepository>();
+builder.Services.AddScoped<IInvestmentRepository, InvestmentRepository>();
+builder.Services.AddScoped<InvestmentService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

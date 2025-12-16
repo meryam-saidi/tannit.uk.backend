@@ -67,4 +67,26 @@ public class UserAccountRepository : IUserAccountRepository
         var rows = await cn.ExecuteAsync(sql, new { id = userId, amount });
         return rows == 1; // true si on vient d'accorder le bonus, false s'il était déjà accordé
     }
+
+    public async Task DecreaseBalanceAsync(Guid userId, int amount)
+    {
+        if (amount <= 0)
+            throw new ArgumentException("Invalid amount");
+
+        const string sql = @"
+        UPDATE UserAccounts
+        SET Balance = Balance - @Amount
+        WHERE AuthUserId = @UserId AND Balance >= @Amount";
+
+        using var cn = _factory.Create();
+        var rows = await cn.ExecuteAsync(sql, new
+        {
+            UserId = userId,
+            Amount = amount
+        });
+
+        if (rows == 0)
+            throw new Exception("Insufficient balance or user not found");
+    }
+
 }
